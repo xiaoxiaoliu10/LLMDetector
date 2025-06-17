@@ -31,7 +31,9 @@ The detailed descriptions about the arguments are as following:
 
 For example, dataset WADI can be directly trained by the following command:
 ```python main.py --anormly_ratio 0.003  --alpha 0.1 --num_epochs 20    --batch_size 64  --mode train --dataset WADI  --data_path WADI --input_c 123 --win_size 60 --patch_size 6 --step 60```
+
 To test:
+
 ```python main.py --anormly_ratio 0.003  --alpha 0.1 --num_epochs 20    --batch_size 64  --mode test --dataset WADI  --data_path WADI --input_c 123 --win_size 60 --patch_size 6 --step 60```
 
 The results will be saved in the directory ```./result```. 
